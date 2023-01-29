@@ -3,10 +3,20 @@
 </template>
 
 <script setup>
-definePageMeta({
+useHead({
   title: "Tasks",
-  description: "Tasks page",
-  keywords: "tasks, page",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content: "Tasks page",
+    },
+    {
+      hid: "keywords",
+      name: "keywords",
+      content: "tasks, page",
+    },
+  ],
 });
 </script>
 
