@@ -1,5 +1,6 @@
 <template>
   <div>
+    <header-nav />
     <slot />
   </div>
 </template>
