@@ -3,6 +3,10 @@
 </template>
 
 <script setup>
+const layout = "task";
+definePageMeta({
+  layout: "task-layout",
+});
 useHead({
   title: "Tasks",
   meta: [
